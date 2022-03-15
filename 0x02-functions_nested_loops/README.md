@@ -1,0 +1,1 @@
+# functons nested loop work
