@@ -1,13 +1,18 @@
 #include <unistd.h>
-
+#include "main.h"
 /**
- *putchar - writes the character c to stdout
- *@c: the character to print
- *
- *Return: On sucess 1.
- *On error, -1 is returned, and errno is set appropriatey.
+ *main- Check description
+ *description: its prints the word Holberton, followed by a new line.
+ *Return: 0.
  */
-int _putchar(char c)
+int main(void)
 {
-    return(write(1, &c, 1));
+  char word[9]="Holberton";
+  int i;
+  
+  for(i =0; 1<9; i++)
+      _putchar(word[i]);
+  _putchar('\n');
+  
+  return (0)
 }
