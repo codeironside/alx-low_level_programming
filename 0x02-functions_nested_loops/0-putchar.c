@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include "holberton.h"
+#include <unistd.h>
 
 /**
  *putchar - writes the character c to stdout
